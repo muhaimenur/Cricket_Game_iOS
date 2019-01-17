@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		303670541C6B7AF400EE4916 /* ShowTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 303670531C6B7AF400EE4916 /* ShowTableViewController.m */; };
+		303670581C6BA60800EE4916 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 303670561C6BA60800EE4916 /* CustomTableViewCell.m */; };
+		303670591C6BA60800EE4916 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 303670571C6BA60800EE4916 /* CustomTableViewCell.xib */; };
 		304833A91C6509E200732028 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 304833A81C6509E200732028 /* main.m */; };
 		304833AC1C6509E200732028 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 304833AB1C6509E200732028 /* AppDelegate.m */; };
 		304833AF1C6509E200732028 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 304833AE1C6509E200732028 /* ViewController.m */; };
@@ -14,6 +17,10 @@
 		304833B41C6509E200732028 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 304833B31C6509E200732028 /* Images.xcassets */; };
 		304833B71C6509E200732028 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 304833B51C6509E200732028 /* LaunchScreen.xib */; };
 		304833C31C6509E200732028 /* CricketGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 304833C21C6509E200732028 /* CricketGameTests.m */; };
+		304833CE1C65129400732028 /* TeamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 304833CD1C65129400732028 /* TeamViewController.m */; };
+		30B057941C66370E0019E5A7 /* TossViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B057931C66370E0019E5A7 /* TossViewController.m */; };
+		30B057971C66373A0019E5A7 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B057961C66373A0019E5A7 /* MainViewController.m */; };
+		30B057991C664BF70019E5A7 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 30B057981C664BF70019E5A7 /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +34,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		303670521C6B7AF400EE4916 /* ShowTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowTableViewController.h; sourceTree = "<group>"; };
+		303670531C6B7AF400EE4916 /* ShowTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowTableViewController.m; sourceTree = "<group>"; };
+		303670551C6BA60800EE4916 /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		303670561C6BA60800EE4916 /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		303670571C6BA60800EE4916 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 		304833A31C6509E200732028 /* CricketGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CricketGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		304833A71C6509E200732028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		304833A81C6509E200732028 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +52,13 @@
 		304833BC1C6509E200732028 /* CricketGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CricketGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		304833C11C6509E200732028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		304833C21C6509E200732028 /* CricketGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CricketGameTests.m; sourceTree = "<group>"; };
+		304833CC1C65129400732028 /* TeamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamViewController.h; sourceTree = "<group>"; };
+		304833CD1C65129400732028 /* TeamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamViewController.m; sourceTree = "<group>"; };
+		30B057921C66370E0019E5A7 /* TossViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TossViewController.h; sourceTree = "<group>"; };
+		30B057931C66370E0019E5A7 /* TossViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TossViewController.m; sourceTree = "<group>"; };
+		30B057951C66373A0019E5A7 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		30B057961C66373A0019E5A7 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		30B057981C664BF70019E5A7 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30B057991C664BF70019E5A7 /* libsqlite3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +83,7 @@
 		3048339A1C6509E200732028 = {
 			isa = PBXGroup;
 			children = (
+				30B057981C664BF70019E5A7 /* libsqlite3.dylib */,
 				304833A51C6509E200732028 /* CricketGame */,
 				304833BF1C6509E200732028 /* CricketGameTests */,
 				304833A41C6509E200732028 /* Products */,
@@ -85,7 +106,18 @@
 				304833AB1C6509E200732028 /* AppDelegate.m */,
 				304833AD1C6509E200732028 /* ViewController.h */,
 				304833AE1C6509E200732028 /* ViewController.m */,
+				304833CC1C65129400732028 /* TeamViewController.h */,
+				304833CD1C65129400732028 /* TeamViewController.m */,
+				30B057921C66370E0019E5A7 /* TossViewController.h */,
+				30B057931C66370E0019E5A7 /* TossViewController.m */,
+				30B057951C66373A0019E5A7 /* MainViewController.h */,
+				30B057961C66373A0019E5A7 /* MainViewController.m */,
+				303670521C6B7AF400EE4916 /* ShowTableViewController.h */,
+				303670531C6B7AF400EE4916 /* ShowTableViewController.m */,
 				304833B01C6509E200732028 /* Main.storyboard */,
+				303670551C6BA60800EE4916 /* CustomTableViewCell.h */,
+				303670561C6BA60800EE4916 /* CustomTableViewCell.m */,
+				303670571C6BA60800EE4916 /* CustomTableViewCell.xib */,
 				304833B31C6509E200732028 /* Images.xcassets */,
 				304833B51C6509E200732028 /* LaunchScreen.xib */,
 				304833A61C6509E200732028 /* Supporting Files */,
@@ -201,6 +233,7 @@
 			files = (
 				304833B21C6509E200732028 /* Main.storyboard in Resources */,
 				304833B71C6509E200732028 /* LaunchScreen.xib in Resources */,
+				303670591C6BA60800EE4916 /* CustomTableViewCell.xib in Resources */,
 				304833B41C6509E200732028 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,8 +253,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				304833AF1C6509E200732028 /* ViewController.m in Sources */,
+				30B057971C66373A0019E5A7 /* MainViewController.m in Sources */,
+				304833CE1C65129400732028 /* TeamViewController.m in Sources */,
 				304833AC1C6509E200732028 /* AppDelegate.m in Sources */,
+				303670541C6B7AF400EE4916 /* ShowTableViewController.m in Sources */,
 				304833A91C6509E200732028 /* main.m in Sources */,
+				303670581C6BA60800EE4916 /* CustomTableViewCell.m in Sources */,
+				30B057941C66370E0019E5A7 /* TossViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +454,7 @@
 				304833C81C6509E200732028 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		304833C91C6509E200732028 /* Build configuration list for PBXNativeTarget "CricketGameTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +463,7 @@
 				304833CB1C6509E200732028 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
